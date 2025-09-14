@@ -37,7 +37,7 @@ Documentos creados para facilitar el trabajo
 #### Trabajo final modulo:
 > *“El Comité Olímpico Internacional ha recopilado información sobre el desempeño de atletas en diversas disciplinas a lo largo de los últimos juegos olímpicos. El objetivo es analizar patrones de rendimiento, identificar factores clave que influyen en el éxito de los atletas y realizar prediccionessobre el desempeño futuro...”*
 
-- :link:[trabajo final M4](#)
+- :link:[trabajo final M4](M4/atletas.py)
 - [ejerciciosclases M4](#)
 
 ---
