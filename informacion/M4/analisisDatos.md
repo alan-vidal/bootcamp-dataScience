@@ -173,5 +173,3 @@ La visualización es fundamental en todo el proceso. Un buen gráfico comunica p
 
 
 Este flujo, desde entender las variables hasta analizar sus interacciones complejas, es la base de un análisis de datos robusto y consciente.
-
-[[S1-M4 Ejemplo Practico]]
