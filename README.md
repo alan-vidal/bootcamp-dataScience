@@ -20,8 +20,8 @@ Documentos creados para facilitar el trabajo
 #### Trabajo final modulo:
 > *“Un instituto de investigación internacional está analizando datos de migración del siglo XXI para identificar tendencias y factores socioeconómicos que afectan los movimientos de población. Se ha entregado un dataset en formato CSV con información sobre migraciones entre distintos países, incluyendo cantidad de migrantes, razones de migración y variables económicas.”*
 
-- :link:[trabajo final M3](#)
-- [ejerciciosclases M3](#)
+- :link:[trabajo final M3](M3/entregaM3.py)
+- [ejerciciosclases M3](M3/ejercicios)
 
 ---
 
