@@ -69,11 +69,10 @@ contingency_table = pd.crosstab(df_cat['Grupo_Edad'], df_cat['Preferencia_Produc
 
 print("Tabla de Contingencia:")
 print(contingency_table)
+
 ```
 
 **Interpretación:** La tabla nos mostrará cuántas personas de cada grupo de edad prefieren cada producto. Si vemos que una gran mayoría de los jóvenes prefiere el producto A y la mayoría de los adultos prefiere el B, podríamos inferir que existe una asociación entre la edad y la preferencia del producto.
-
----
 
 ## **Gráficos Scatterplot: Visualizando la Relación entre Variables Numéricas**
 
@@ -98,7 +97,7 @@ La librería `seaborn` simplifica enormemente la creación de scatterplots est
 
 Python
 
-``````PYTHON
+```PYTHON
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -118,11 +117,10 @@ plt.xlabel('Horas de Estudio')
 plt.ylabel('Calificación en el Examen')
 plt.grid(True)
 plt.show()
+
 ```
 
 **Interpretación:** Si al observar el gráfico los puntos tienden a formar una línea ascendente, indica una correlación positiva. Si forman una línea descendente, la correlación es negativa. Si los puntos están dispersos sin un patrón claro, probablemente no haya una correlación lineal.
-
----
 
 ## **Coeficiente de Correlación de Pearson: Cuantificando la Relación Lineal**
 
@@ -143,9 +141,8 @@ Es importante destacar que Pearson solo mide relaciones lineales. Dos variables 
 
 Podemos calcular el coeficiente de Pearson y, muy importante, el **p-value** asociado utilizando la librería `scipy`.
 
-Python
 
-```
+```PYTHON
 from scipy.stats import pearsonr
 import pandas as pd
 
@@ -163,9 +160,8 @@ corr_coef, p_value = pearsonr(df['Horas_Estudio'], df['Calificacion_Examen'])
 
 print(f"Coeficiente de Correlación de Pearson: {corr_coef:.4f}")
 print(f"P-value: {p_value:.4f}")
-```
 
----
+```
 
 ## **¿Qué es el p-value? 🤔**
 
@@ -177,8 +173,6 @@ La hipótesis nula (H_0) generalmente establece que no hay correlación entre la
 
 - **P-value grande (> 0.05):** No tenemos suficiente evidencia para rechazar la hipótesis nula. La correlación observada podría ser producto del azar.
 
-
----
 
 ## **Causalidad versus Correlación: ¡Cuidado con las Conclusiones! ⚠️**
 
@@ -206,6 +200,3 @@ Para establecer causalidad se requieren diseños experimentales rigurosos (como 
 4. **Ten cuidado con las conclusiones causales:** Nunca asumas que una correlación implica una causa. Busca siempre posibles variables de confusión.
 
 5. **Contexto es el rey:** Interpreta tus hallazgos en el contexto del problema que estás tratando de resolver. Una correlación de 0.4 puede ser muy importante en un campo y despreciable en otro.
-
-
-Espero que esta guía te sea de gran utilidad en tu camino por la Ciencia de Datos. ¡Sigue explorando y aprendiendo! 👨‍🏫💡

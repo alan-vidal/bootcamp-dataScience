@@ -170,6 +170,3 @@ La visualización es fundamental en todo el proceso. Un buen gráfico comunica p
     - **Gráfico de Líneas**: Muestra la evolución de una variable cuantitativa a lo largo del tiempo o de otra variable continua.
 
     - **Pair Plot**: Como se mencionó, para una vista rápida multivariada.
-
-
-Este flujo, desde entender las variables hasta analizar sus interacciones complejas, es la base de un análisis de datos robusto y consciente.

@@ -12,7 +12,7 @@
 - Capacidad de generar **gráficos complejos** (como heatmaps, pairplots, facet grids) con pocas líneas de código.
 
 ### 🧪 Ejemplo básico:
-```python
+```PYTHON
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -22,6 +22,7 @@ tips = sns.load_dataset("tips")
 # Gráfico de barras simple
 sns.barplot(x="day", y="total_bill", data=tips)
 plt.show()
+
 ```
 
 ### 💡 Utilidad:
@@ -160,7 +161,7 @@ plt.show()
 Un heatmap muestra datos en una matriz donde cada celda está coloreada según el valor correspondiente. Es ideal para visualizar matrices de correlación o tablas de contingencia.
 
 ### 🧪 Ejemplo:
-```python
+```PYTHON
 import numpy as np
 
 # Matriz de correlación
@@ -170,6 +171,7 @@ corr = tips.select_dtypes(include=np.number).corr()
 sns.heatmap(corr, annot=True, cmap='coolwarm')
 plt.title("Mapa de Calor de Correlación")
 plt.show()
+
 ```
 
 ### 💡 Utilidad:
@@ -188,10 +190,11 @@ Permiten crear **grids (cuadrículas)** de gráficos basadas en niveles de una o
 ### 📊 `FacetGrid`
 
 ### 🧪 Ejemplo:
-```python
+```PYTHON
 g = sns.FacetGrid(tips, col="time", row="smoker")
 g.map(sns.scatterplot, "total_bill", "tip")
 plt.show()
+
 ```
 
 ### 💡 Utilidad:
@@ -203,13 +206,14 @@ plt.show()
 ### 📊 `PairGrid`
 
 ### 🧪 Ejemplo:
-```python
+```PYTHON
 iris = sns.load_dataset("iris")
 g = sns.PairGrid(iris, hue="species")
 g.map_diag(sns.histplot)
 g.map_offdiag(sns.scatterplot)
 g.add_legend()
 plt.show()
+
 ```
 
 ### 💡 Utilidad:

@@ -119,7 +119,7 @@ Scikit-learn es una biblioteca de aprendizaje automático que permite implementa
 
 ### 🧠 Código paso a paso:
 
-```python
+```PYTHON
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
@@ -142,6 +142,7 @@ print("Predicciones:", y_pred)
 # Métricas
 print("MSE:", mean_squared_error(y, y_pred))
 print("R²:", r2_score(y, y_pred))
+
 ```
 
 ### 📌 Aplicación real:
@@ -181,7 +182,7 @@ Statsmodels es una biblioteca enfocada en análisis estadístico, ideal para mod
 
 ### 🧠 Código:
 
-```python
+```PYTHON
 import statsmodels.api as sm
 
 # Datos
@@ -191,6 +192,7 @@ y = [2, 4, 5, 4, 5]
 # Modelo
 model = sm.OLS(y, X).fit()
 print(model.summary())
+
 ```
 
 En el output:
@@ -217,7 +219,7 @@ $$
 
 ### 🧠 Código:
 
-```python
+```PYTHON
 from sklearn.linear_model import LinearRegression
 
 X_multi = [[1, 2], [2, 3], [3, 4], [4, 5]]
@@ -226,6 +228,7 @@ y_multi = [2, 4, 5, 4]
 model = LinearRegression().fit(X_multi, y_multi)
 print("Coeficientes:", model.coef_)  # [0.5, 0.5]
 print("Intercepto:", model.intercept_)
+
 ```
 
 Modelo final:
@@ -261,7 +264,7 @@ Técnicas para seleccionar las variables más relevantes en una regresión linea
 
 ### 🧠 Código de Backward Elimination:
 
-```python
+```PYTHON
 def backward_elimination(X, y, sl=0.05):
     X = np.append(arr=np.ones((len(X), 1)), values=X, axis=1)
     for i in range(X.shape[1]):
@@ -273,6 +276,7 @@ def backward_elimination(X, y, sl=0.05):
         else:
             break
     return model, X
+
 ```
 
 ---
