@@ -7,7 +7,8 @@ El siguiente repositorio, contiene los trabajos realizados durante el Bootcamp, 
 #### Trabajo final modulo 2:
 > “Eres contratado/a por una pequeña cadena de librerías llamada "Libros & Bytes" para desarrollar un sistema que gestione su inventario y permita a los usuarios simular una compra en línea. Trabajarás solo en la lógica del sistema sin preocuparte de la interfaz visual.”
 
-- [trabajoFinal_M2](M2/entregaU2.py)
+- :link: [trabajoFinal_M2](M2/entregaU2.py) :bug:
 - [ejerciciosClases_M2](M2/ejerciciosU2)
 
 ---
+:hammer:
