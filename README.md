@@ -55,7 +55,7 @@ Documentos creados para facilitar el trabajo
 #### Trabajo final modulo:
 > *“Eres un analista de datos en un centro de investigación sobre cambio climático y seguridad alimentaria. Te han encomendado evaluar cómo factores climáticos afectan la producción agrícola en distintos países. Para ello, aplicarás modelos de aprendizaje supervisado para predecir la producción de alimentos y clasificar los países según su vulnerabilidad...”*
 
-- :link:[trabajo final M6](#)
+- :link:[trabajo final M6](M6/entregaM6.py)
 - [ejerciciosclases M6](#)
 
 ---
