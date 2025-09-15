@@ -64,7 +64,7 @@ Documentos creados para facilitar el trabajo
 #### Trabajo final modulo:
 > *“Trabajas en un centro de investigación de tendencias culturales y te han encargado un análisis sobre las preferencias musicales en distintos países. Tu tarea es aplicar técnicas de aprendizaje de máquina no supervisado para extraer patrones de escucha y agrupar países según sus similitudesen consumo musical.”*
 
-- :link:[trabajo final M7](#)
+- :link:[trabajo final M7](M7/entregaM7.py)
 - [ejerciciosclases M7](#)
 
 ---
@@ -73,7 +73,7 @@ Documentos creados para facilitar el trabajo
 #### Trabajo final modulo:
 > *“Eres parte de un equipo de investigación en demografía y te han solicitado desarrollar un modelo basado en redes neuronales para predecir la tasa de natalidad en distintos países. Para ello, contarás con un dataset que incluye información socioeconómica como el PIB per cápita, el acceso a servicios de salud, la tasa de educación y otros factores relevantes.”*
 
-- :link:[trabajo final M8](#)
+- :link:[trabajo final M8](M8/entregaM8.py)
 - [ejerciciosclases M8](#)
 
 ---
@@ -82,7 +82,7 @@ Documentos creados para facilitar el trabajo
 #### Trabajo final modulo:
 > *“Eres parte de un equipo de analistas de datos encargado de estudiar las tendencias de migración humana en el siglo XXI utilizando Big Data. Para ello, trabajarás con un conjunto de datos que contiene información sobre migraciones entre distintos países, sus causas y el impacto socioeconómico en las regiones de origen y destino...”*
 
-- :link:[trabajo final M9](#)
+- :link:[trabajo final M9](M9/entregaM9.py)
 - [ejerciciosclases M9](#)
 
 ---
